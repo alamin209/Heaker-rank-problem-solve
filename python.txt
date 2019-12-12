@@ -1,0 +1,19 @@
+Problem Name :Breaking the Records
+def breakingRecords(scores):
+        min=0
+        max=0
+        temp=scores[0]
+        temp1=scores[0]
+
+        for x  in  scores:
+            if(x>temp):
+                temp=x
+                max=max+1
+
+            if(x<temp1):
+                temp1=x
+                min=min+1
+        return [max, min];     
+                
+                        
+                
