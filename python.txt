@@ -15,5 +15,13 @@ def breakingRecords(scores):
                 min=min+1
         return [max, min];     
                 
-                        
+Problem Name :#Divisible Sum Pairs
+    counts=0
+    for i in range(n):
+        for j in range(n):
+            if(i <j):
+                if((ar[i]+ar[j]) % k ==0):
+                    counts= counts+1
+    return counts 
+
                 

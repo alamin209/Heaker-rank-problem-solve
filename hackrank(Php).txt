@@ -131,3 +131,28 @@ fclose($fptr);
 
 
         
+#Divisible Sum Pairs
+
+function divisibleSumPairs($n, $k, $ar) {
+    
+    $sum=0;
+  $counts=0;
+
+    for($i=0; $i<($n-1); $i++){
+        
+      for($j=1; $j<($n); $j++) 
+        {  
+           
+
+           if( $i < $j){
+
+             if((($ar[$i]+$ar[$j])% $k) == 0){
+
+             $counts++;
+            }
+      }
+    }
+    }
+    return $counts;
+
+}
