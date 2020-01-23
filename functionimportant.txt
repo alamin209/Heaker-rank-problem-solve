@@ -17,11 +17,12 @@ def sum(a ,*b):
 # Actual Argument are 4 type:
 # 1.Position
 # add('alamin',12)
-# 2.Keyward
 
-sum(4,6,9,12)
+# 2.Keyward
 # add(age=25,name="alamin Hossain")
 
 # 3.Default
 defaultvaluexample("alamin Hossain",30)
+
 # 4.Variable Length
+sum(4,6,9,12)
